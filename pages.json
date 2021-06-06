@@ -1,0 +1,125 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "猪八戒网"
+			}
+		}
+	    ,{
+            "path" : "pages/gjq/gjq",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gift/gift",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/renwu/renwu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "完善需求",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/fuwenben/fuwenben",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "富文本",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/xiangqing/xiangqing",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "任务详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/dingdanlist/dingdanlist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "任务列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/rwlist/rwlist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "猪八戒网",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+			"selectedColor":"red",
+			"list":[{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/home.png",
+				"selectedIconPath":"static/home(1).png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/gjq/gjq",
+				"iconPath":"static/jsq.png",
+				"selectedIconPath":"static/jsq1.png",
+				"text":"估价器"
+			},
+			{
+				"pagePath":"pages/gift/gift",
+				"iconPath":"static/gift.png",
+				"selectedIconPath":"static/gift1.png",
+				"text":"领福利"
+			},
+			{
+				"pagePath":"pages/mine/mine",
+				"iconPath":"static/mine.png",
+				"selectedIconPath":"static/mine1.png",
+				"text":"个人中心"
+			}
+			]
+		}
+}
